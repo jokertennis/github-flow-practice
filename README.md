@@ -1,4 +1,4 @@
 # github-flow-practice
 
 github-flow,hello!!
-project1.hello!!
+project2.hello!!
