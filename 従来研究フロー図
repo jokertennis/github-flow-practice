@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-29T11:24:58.537Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="PDvcZ74jhQvLwNs278LA" version="13.10.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-29T11:27:48.706Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="Tx0Y9ufQB8uca3T-QtCU" version="13.10.0" type="github">
   <diagram id="zRziVPeCVlG07U9BPZFa" name="Page-1">
     <mxGraphModel dx="868" dy="850" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -285,6 +285,24 @@
         </mxCell>
         <mxCell id="hJdnB4xZ4oUYTax6oUDe-97" value="(WとXについてはpowerpointの25ページを参考)" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="270" y="380" width="270" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hJdnB4xZ4oUYTax6oUDe-98" value="No" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="460" y="900" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hJdnB4xZ4oUYTax6oUDe-99" value="No" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="450" y="420" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hJdnB4xZ4oUYTax6oUDe-100" value="No" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="450" y="620" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hJdnB4xZ4oUYTax6oUDe-101" value="Yes" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="270" y="680" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hJdnB4xZ4oUYTax6oUDe-102" value="Yes" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="270" y="950" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hJdnB4xZ4oUYTax6oUDe-103" value="Yes" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="270" y="480" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
