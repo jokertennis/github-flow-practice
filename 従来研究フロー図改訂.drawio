@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-09T02:58:25.784Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="lqNj0VmO8wQzKUEoPPZq" version="14.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-09T03:01:43.653Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="qSNCDajl6Iik83us9CZ8" version="14.7.3" type="github">
   <diagram id="-GdPQ9BeZMQRRu7nCC9y" name="Page-1">
     <mxGraphModel dx="868" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -14,7 +14,7 @@
           <mxGeometry x="345" y="160" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="vX-vixm7UbsISbDQlSkW-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="215" y="230" width="300" height="30" as="geometry" />
+          <mxGeometry x="195" y="230" width="340" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vX-vixm7UbsISbDQlSkW-7" value="レシピ提案で利用するn種類の特定栄養素を決定する。&#xa;[栄養素1,栄養素2,...,栄養素]" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="210" y="230" width="310" height="30" as="geometry" />
@@ -48,6 +48,12 @@
               <mxPoint x="365" y="270" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="vX-vixm7UbsISbDQlSkW-13" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;rounded=0;labelBackgroundColor=#ffffff;sketch=0;fillColor=none;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="195" y="290" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vX-vixm7UbsISbDQlSkW-14" value="上記のj番目の栄養素の&#xa;レシピ1人前当たりの許容最大含有量dj,許容最小含有量ejを&#xa;システム開発者が事前に設定した値と対応させる。&#xa;dj,ejをシステム利用者は設定しない。" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="290" width="330" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
