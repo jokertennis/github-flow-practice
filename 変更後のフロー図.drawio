@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-30T04:21:11.172Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="ZPV4751RpITZhTOsCqxA" version="14.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-09T03:58:35.604Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="dzvVftEB862zTaCof6v5" version="14.7.3" type="github">
   <diagram id="zRziVPeCVlG07U9BPZFa" name="Page-1">
     <mxGraphModel dx="868" dy="850" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -13,52 +13,33 @@
         <mxCell id="hJdnB4xZ4oUYTax6oUDe-14" value="開始" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;labelBackgroundColor=#ffffff;labelBorderColor=none;" parent="1" vertex="1">
           <mxGeometry x="250" y="-300" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="hJdnB4xZ4oUYTax6oUDe-27" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=openThin;elbow=vertical;startArrow=none;endFill=0;strokeColor=#545B64;rounded=0;" parent="1" edge="1">
-          <mxGeometry width="100" relative="1" as="geometry">
-            <mxPoint x="269.5" y="-130" as="sourcePoint" />
-            <mxPoint x="270" y="-100" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="270" y="-120" />
-              <mxPoint x="270" y="-120" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="hJdnB4xZ4oUYTax6oUDe-31" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;rounded=0;labelBackgroundColor=#ffffff;sketch=0;fillColor=none;labelBorderColor=none;" parent="1" vertex="1">
-          <mxGeometry x="100" y="-100" width="340" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="hJdnB4xZ4oUYTax6oUDe-32" value="既存料理レシピriの食材であり、かつ被代替食材ではない食材&#xa;(F(ri)の要素であり、かつM(ri)の要素ではない食材)&#xa;に関するri中のj番目の栄養素の含有量の総和Sumjを求める。" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-          <mxGeometry x="100" y="-100" width="350" height="50" as="geometry" />
-        </mxCell>
         <mxCell id="hJdnB4xZ4oUYTax6oUDe-34" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=openThin;elbow=vertical;startArrow=none;endFill=0;strokeColor=#545B64;rounded=0;" parent="1" edge="1">
           <mxGeometry width="100" relative="1" as="geometry">
-            <mxPoint x="270" y="190" as="sourcePoint" />
-            <mxPoint x="270.5" y="220" as="targetPoint" />
+            <mxPoint x="270" y="40" as="sourcePoint" />
+            <mxPoint x="270.5" y="70" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="270" y="200" />
-              <mxPoint x="270" y="200" />
+              <mxPoint x="270" y="50" />
+              <mxPoint x="270" y="50" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="hJdnB4xZ4oUYTax6oUDe-37" value="上記のj番目の栄養素の&#xa;レシピ1人前当たりの許容最大含有量dj,許容最小含有量ejを&#xa;システム開発者が事前に設定した値と対応させる。&#xa;dj,ejをシステム利用者は設定しない。" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-          <mxGeometry x="110" y="40" width="330" height="60" as="geometry" />
+          <mxGeometry x="110" y="-100" width="330" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hJdnB4xZ4oUYTax6oUDe-39" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;rounded=0;labelBackgroundColor=#ffffff;sketch=0;fillColor=none;labelBorderColor=none;" parent="1" vertex="1">
-          <mxGeometry x="100" y="40" width="340" height="60" as="geometry" />
+          <mxGeometry x="100" y="-100" width="340" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hJdnB4xZ4oUYTax6oUDe-40" value="新規レシピのj番目の栄養素の含有量を表す変数sumjに&#xa;Sumjの値を初期値として渡す。" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-          <mxGeometry x="110" y="-20" width="310" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="hJdnB4xZ4oUYTax6oUDe-41" value="既存料理レシピriの1番目の被代替え食材の&#xa;代替食材集合(A(m(ri,1)))から代替食材(j1)を抽出する。&#xa;抽出した代替食材(j1)のレシピ1人前当たりの&#xa;1番目の栄養素の含有量をsum1に足す。" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-          <mxGeometry x="120" y="130" width="310" height="60" as="geometry" />
+        <mxCell id="hJdnB4xZ4oUYTax6oUDe-41" value="代替食材の全ての組み合わせから&#xa;許容最大含有量d1,許容最小含有量e1の条件を満たす&#xa;代替食材の組み合わせを抽出する。" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="-10" width="300" height="50" as="geometry" />
         </mxCell>
         <mxCell id="hJdnB4xZ4oUYTax6oUDe-42" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;rounded=0;labelBackgroundColor=#ffffff;sketch=0;fillColor=none;labelBorderColor=none;" parent="1" vertex="1">
-          <mxGeometry x="100" y="130" width="340" height="60" as="geometry" />
+          <mxGeometry x="100" y="-10" width="340" height="50" as="geometry" />
         </mxCell>
         <mxCell id="hJdnB4xZ4oUYTax6oUDe-43" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;rounded=0;labelBackgroundColor=#ffffff;sketch=0;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="100" y="220" width="340" height="80" as="geometry" />
+          <mxGeometry x="100" y="70" width="340" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="hJdnB4xZ4oUYTax6oUDe-44" value="(sum1 + W(1,1) &gt;= e1) &amp;&amp; (sum1 + X(1,1) &lt;= d1)" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-          <mxGeometry x="135" y="250" width="280" height="20" as="geometry" />
+        <mxCell id="hJdnB4xZ4oUYTax6oUDe-44" value="抽出したレシピ数 &gt; 提案するレシピ数の上限&#xa;or&#xa;抽出したレシピ数 == 0" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="140" y="110" width="260" height="50" as="geometry" />
         </mxCell>
         <mxCell id="hJdnB4xZ4oUYTax6oUDe-45" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=openThin;elbow=vertical;startArrow=none;endFill=0;strokeColor=#545B64;rounded=0;" parent="1" edge="1">
           <mxGeometry width="100" relative="1" as="geometry">
@@ -219,16 +200,6 @@
         </mxCell>
         <mxCell id="hJdnB4xZ4oUYTax6oUDe-90" value="&#xa;抽出した代替食材(j1)のレシピ1人前当たりの&#xa;j番目の栄養素の含有量をsumjに引く。&#xa;j2,j3,...,j|M(ri)|を0にする。" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry x="520" y="225" width="260" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="hJdnB4xZ4oUYTax6oUDe-94" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=openThin;elbow=vertical;startArrow=none;endFill=0;strokeColor=#545B64;rounded=0;" parent="1" edge="1">
-          <mxGeometry width="100" relative="1" as="geometry">
-            <mxPoint x="270" y="10" as="sourcePoint" />
-            <mxPoint x="270.5" y="40" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="270.5" y="20" />
-              <mxPoint x="270.5" y="20" />
-            </Array>
-          </mxGeometry>
         </mxCell>
         <mxCell id="hJdnB4xZ4oUYTax6oUDe-97" value="(WとXについてはpowerpointの25ページを参考)" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="280" y="200" width="270" height="20" as="geometry" />
@@ -402,19 +373,16 @@
         <mxCell id="EWWK25YCGGDl8XbODBrF-4" value="利用者が優先順位の高い栄養素から順に栄養素を並べる。&#xa;sorted_eiyouso_list = [栄養素1,栄養素2,...,栄養素n]" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="110" y="-230" width="330" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="hJdnB4xZ4oUYTax6oUDe-36" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;rounded=0;labelBackgroundColor=#ffffff;sketch=0;fillColor=none;labelBorderColor=none;" parent="1" vertex="1">
-          <mxGeometry x="100" y="-20" width="340" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="EWWK25YCGGDl8XbODBrF-6" value="提案するレシピ数の上限(number_of_recipies)&#xa;を利用者が決定する。" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="135" y="-170" width="260" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EWWK25YCGGDl8XbODBrF-11" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=openThin;elbow=vertical;startArrow=none;endFill=0;strokeColor=#545B64;rounded=0;" parent="1" edge="1">
           <mxGeometry width="100" relative="1" as="geometry">
-            <mxPoint x="270" y="-50" as="sourcePoint" />
-            <mxPoint x="270.5" y="-20" as="targetPoint" />
+            <mxPoint x="270" y="-130" as="sourcePoint" />
+            <mxPoint x="270.5" y="-100" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="270.5" y="-40" />
-              <mxPoint x="270.5" y="-40" />
+              <mxPoint x="270.5" y="-120" />
+              <mxPoint x="270.5" y="-120" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -431,13 +399,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="01D-o3mro5K63EcvY-T5-3" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=openThin;elbow=vertical;startArrow=none;endFill=0;strokeColor=#545B64;rounded=0;" edge="1" parent="1">
+        <mxCell id="01D-o3mro5K63EcvY-T5-3" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=openThin;elbow=vertical;startArrow=none;endFill=0;strokeColor=#545B64;rounded=0;" parent="1" edge="1">
           <mxGeometry width="100" relative="1" as="geometry">
-            <mxPoint x="270" y="100" as="sourcePoint" />
-            <mxPoint x="270.5" y="130" as="targetPoint" />
+            <mxPoint x="270" y="-40" as="sourcePoint" />
+            <mxPoint x="270.5" y="-10" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="270" y="110" />
-              <mxPoint x="270" y="110" />
+              <mxPoint x="270" y="-30" />
+              <mxPoint x="270" y="-30" />
             </Array>
           </mxGeometry>
         </mxCell>
