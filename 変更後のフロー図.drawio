@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-09T03:58:35.604Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="dzvVftEB862zTaCof6v5" version="14.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-09T04:00:00.138Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="eVIawFmJCiA9ZAMOWbMB" version="14.7.3" type="github">
   <diagram id="zRziVPeCVlG07U9BPZFa" name="Page-1">
     <mxGraphModel dx="868" dy="850" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -43,11 +43,11 @@
         </mxCell>
         <mxCell id="hJdnB4xZ4oUYTax6oUDe-45" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=openThin;elbow=vertical;startArrow=none;endFill=0;strokeColor=#545B64;rounded=0;" parent="1" edge="1">
           <mxGeometry width="100" relative="1" as="geometry">
-            <mxPoint x="270" y="300" as="sourcePoint" />
-            <mxPoint x="270.5" y="330" as="targetPoint" />
+            <mxPoint x="270" y="190" as="sourcePoint" />
+            <mxPoint x="270.5" y="220" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="270" y="310" />
-              <mxPoint x="270" y="310" />
+              <mxPoint x="270" y="200" />
+              <mxPoint x="270" y="200" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -201,9 +201,6 @@
         <mxCell id="hJdnB4xZ4oUYTax6oUDe-90" value="&#xa;抽出した代替食材(j1)のレシピ1人前当たりの&#xa;j番目の栄養素の含有量をsumjに引く。&#xa;j2,j3,...,j|M(ri)|を0にする。" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry x="520" y="225" width="260" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hJdnB4xZ4oUYTax6oUDe-97" value="(WとXについてはpowerpointの25ページを参考)" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="280" y="200" width="270" height="20" as="geometry" />
-        </mxCell>
         <mxCell id="hJdnB4xZ4oUYTax6oUDe-98" value="No" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="460" y="760" width="30" height="20" as="geometry" />
         </mxCell>
@@ -220,7 +217,7 @@
           <mxGeometry x="270" y="810" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="hJdnB4xZ4oUYTax6oUDe-103" value="Yes" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="270" y="310" width="40" height="20" as="geometry" />
+          <mxGeometry x="270" y="190" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="hJdnB4xZ4oUYTax6oUDe-104" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;rounded=0;labelBackgroundColor=#ffffff;sketch=0;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="510" y="130" width="280" height="60" as="geometry" />
