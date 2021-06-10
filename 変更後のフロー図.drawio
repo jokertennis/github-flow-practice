@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2021-06-10T01:23:47.826Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="ltq-wAf16CHeap6-3J8T" version="14.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-10T01:27:48.507Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="ki_H55WPLybWD-RPejjW" version="14.7.3" type="github">
   <diagram id="zRziVPeCVlG07U9BPZFa" name="Page-1">
     <mxGraphModel dx="868" dy="850" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="kCSx7BQUmaSw3ekZadOx-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="30" y="-370" width="910" height="1430" as="geometry" />
+          <mxGeometry x="30" y="-370" width="910" height="1660" as="geometry" />
         </mxCell>
         <mxCell id="hJdnB4xZ4oUYTax6oUDe-4" value="" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;labelBorderColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="210" y="-320" width="120" height="60" as="geometry" />
@@ -68,7 +68,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="hJdnB4xZ4oUYTax6oUDe-53" value="..." style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=28;" parent="1" vertex="1">
-          <mxGeometry x="150" y="580" width="40" height="40" as="geometry" />
+          <mxGeometry x="250" y="590" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="hJdnB4xZ4oUYTax6oUDe-56" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=openThin;elbow=vertical;startArrow=none;endFill=0;strokeColor=#545B64;rounded=0;" parent="1" edge="1">
           <mxGeometry width="100" relative="1" as="geometry">
@@ -81,37 +81,31 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="hJdnB4xZ4oUYTax6oUDe-57" value="既存料理レシピriの|M(ri)|番目の被代替え食材の&#xa;代替食材集合(A(m(ri,|M(ri)|)))から&#xa;代替食材(j|M(ri)|)を抽出する。&#xa;抽出した代替食材(j|M(ri)|)のレシピ1人前当たりの&#xa;1番目の栄養素の含有量をsum1に足す。" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-          <mxGeometry x="130" y="640" width="280" height="80" as="geometry" />
+          <mxGeometry x="120" y="870" width="280" height="80" as="geometry" />
         </mxCell>
         <mxCell id="hJdnB4xZ4oUYTax6oUDe-60" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=openThin;elbow=vertical;startArrow=none;endFill=0;strokeColor=#545B64;rounded=0;" parent="1" edge="1">
           <mxGeometry width="100" relative="1" as="geometry">
-            <mxPoint x="270" y="720" as="sourcePoint" />
-            <mxPoint x="270.5" y="750" as="targetPoint" />
+            <mxPoint x="270" y="640" as="sourcePoint" />
+            <mxPoint x="270.5" y="670" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="270" y="730" />
-              <mxPoint x="270" y="730" />
+              <mxPoint x="270" y="650" />
+              <mxPoint x="270" y="650" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="hJdnB4xZ4oUYTax6oUDe-61" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;rounded=0;labelBackgroundColor=#ffffff;sketch=0;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="100" y="750" width="350" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="hJdnB4xZ4oUYTax6oUDe-63" value="(sum1 &gt;= e1) &amp;&amp; (sum1 &lt;= d1)" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-          <mxGeometry x="170" y="770" width="180" height="20" as="geometry" />
-        </mxCell>
         <mxCell id="hJdnB4xZ4oUYTax6oUDe-64" value="候補r&#39;(i,j1,j2,...,j|M(ri)|)の生成と保存" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="170" y="850" width="200" height="20" as="geometry" />
+          <mxGeometry x="180" y="1160" width="200" height="20" as="geometry" />
         </mxCell>
         <mxCell id="hJdnB4xZ4oUYTax6oUDe-66" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;rounded=0;labelBackgroundColor=#ffffff;sketch=0;fillColor=none;labelBorderColor=none;" parent="1" vertex="1">
-          <mxGeometry x="170" y="840" width="200" height="40" as="geometry" />
+          <mxGeometry x="160" y="1090" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="hJdnB4xZ4oUYTax6oUDe-68" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=openThin;elbow=vertical;startArrow=none;endFill=0;strokeColor=#545B64;rounded=0;" parent="1" edge="1">
           <mxGeometry width="100" relative="1" as="geometry">
-            <mxPoint x="270" y="810" as="sourcePoint" />
-            <mxPoint x="270.5" y="840" as="targetPoint" />
+            <mxPoint x="280" y="1210" as="sourcePoint" />
+            <mxPoint x="280.5" y="1240" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="270" y="820" />
-              <mxPoint x="270" y="820" />
+              <mxPoint x="280" y="1220" />
+              <mxPoint x="280" y="1220" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -126,7 +120,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="hJdnB4xZ4oUYTax6oUDe-75" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;rounded=0;labelBackgroundColor=#ffffff;sketch=0;fillColor=none;labelBorderColor=none;" parent="1" vertex="1">
-          <mxGeometry x="100" y="640" width="350" height="80" as="geometry" />
+          <mxGeometry x="100" y="730" width="350" height="80" as="geometry" />
         </mxCell>
         <mxCell id="hJdnB4xZ4oUYTax6oUDe-88" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=openThin;elbow=vertical;startArrow=none;endFill=0;strokeColor=#545B64;rounded=0;" parent="1" edge="1">
           <mxGeometry width="100" relative="1" as="geometry">
@@ -145,7 +139,7 @@
           <mxGeometry x="450" y="370" width="30" height="20" as="geometry" />
         </mxCell>
         <mxCell id="hJdnB4xZ4oUYTax6oUDe-102" value="Yes" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="270" y="810" width="40" height="20" as="geometry" />
+          <mxGeometry x="280" y="1020" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="hJdnB4xZ4oUYTax6oUDe-103" value="Yes" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="270" y="190" width="40" height="20" as="geometry" />
@@ -234,6 +228,16 @@
         </mxCell>
         <mxCell id="kCSx7BQUmaSw3ekZadOx-6" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;rounded=0;labelBackgroundColor=#ffffff;sketch=0;fillColor=none;labelBorderColor=none;" vertex="1" parent="1">
           <mxGeometry x="100" y="480" width="340" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="kCSx7BQUmaSw3ekZadOx-7" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=openThin;elbow=vertical;startArrow=none;endFill=0;strokeColor=#545B64;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="270" y="570" as="sourcePoint" />
+            <mxPoint x="270.5" y="600" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="270" y="580" />
+              <mxPoint x="270" y="580" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
